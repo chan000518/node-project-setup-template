@@ -29,7 +29,7 @@ jobs:
 
       # 빌드 및 테스트
       - name: Build and Test
-        run: npm run build 
+        run: npm start 
 
   docker:
     runs-on: ubuntu-latest
